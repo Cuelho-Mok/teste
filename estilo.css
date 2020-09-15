@@ -1,0 +1,164 @@
+/*tag's inteiras*/
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: rgb(128, 128, 128);
+}
+
+section {
+    padding: 20px 0 20px 0;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+    padding:28 15 28 15;
+}
+    li:hover{
+        background-color: rgba(255, 255, 255, 0.37);
+    }
+
+a{
+    text-decoration:none;
+    color: white;
+}
+
+
+header{
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    z-index: 8;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.486);
+    width: 100%;
+    padding: 30px 0 30px 0;
+    float: left;
+    color: white;
+}
+
+/*class's*/
+    /*botões*/
+    .cor-bottom:hover{ 
+    background-color: rgba(255, 255, 255, 0.37);
+    }
+
+    /*colunas*/
+        .c{
+            float: left;
+            padding: 0 5%;
+            position: relative;
+            }
+            .c2{
+                width: 40%;
+            }
+            .c3{
+                width: 40%;
+                padding-left: 30%;
+            }
+            .c4{
+                width: 15%;
+            }
+    /*imagens*/
+        .img{
+            width: 100% 
+        }
+        .moringa {
+            height: 65%;
+        }
+        .menina {
+            height: 65%;
+        }
+
+        /*icones*/
+            .icone {
+                width: 80px;
+                border-radius: 20px;
+            }
+    /*desinig*/
+        /*fundo*/
+            .fundo {
+                background-color: rgba(0, 0, 0, 0.301);
+            }
+
+        /*alinhamento de texto*/
+            .centralizado{
+                text-align: center;
+            }
+            .justificado{
+                text-align: justify;
+            }
+ 
+/*id's*/
+    /*barra de navegação*/
+        #menu{
+            float: right;
+            margin-right: 3%;
+            margin-top: 0px;
+            list-style: none;
+        }
+        #l1{
+        width: 60px;
+        top: 10px;
+        margin-left:3%;
+        position: relative;
+        }
+
+    /*bloco1*/
+        #b1{
+            background:url(fundos/head-moringa_Easy-Resize-2.png);
+            height: 120%;
+            background-size: cover;
+            text-align: center;
+        }
+        #f1-b1{
+            color: rgb(253, 251, 255);
+            padding-top: 18%;
+            font-size: 65px;
+            line-height: 1.2;
+            font-family: 'Amatic SC', cursive;
+        }
+        #f2-b1{
+            color: rgb(255, 255, 255);
+            margin-left: 20%;
+            margin-right: 20%;
+            border-top: 3px solid rgb(48, 45, 51);
+            font-family: 'Amatic SC', cursive;
+        }
+        #a1-b1{
+            color: rgb(255, 251, 251);
+            border:1px rgb(255, 255, 255) solid;
+            padding: 10px 20px 10px 20px;
+            font-family: Helvetica, sans-serif;
+            font-weight: bold;
+            text-decoration: blink;
+        }
+        @media all and (max-width:768px){
+            .c,.c2,.c3,.c4{
+                display: block;
+                float: none;
+                margin: 10px auto;
+                width: 80%;
+                padding: 0;
+            }
+            #sobre-mim{
+                height: 100%;
+            }
+            #div1-l1{
+                width: 100%;
+                position: relative;
+                text-align: center;
+                padding: 0px;
+                visibility: hidden;
+            }
+            #l1 {
+                margin-left: 0px;
+                transform: translateX(-50%);
+            }
+        }
