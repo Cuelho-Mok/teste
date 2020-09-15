@@ -43,6 +43,9 @@ footer{
     color: white;
 }
 
+div{
+    width: block;
+}
 /*class's*/
     /*botões*/
     .cor-bottom:hover{ 
